@@ -16,8 +16,8 @@ print(f'Arean är cirka {a}')
 
 # Skriv om programmet för att lösa följande uppgifter.
 # Implementationen ovan ger ett inte så särkillt noggrant svar. 
-# Uppgift 1: Uppatera programmet så du får en area som har 4 decimalers noggranhet.
+# Uppgift 1: Uppdatera programmet så du får en area som har 4 decimalers noggranhet.
 # Uppgift 2: Funktionen g(x)=(1-x^2)^0.5 är en halvcirkel. 
-#            Använd numerisk integration för att bestämma ett värde på pi.
+#            Använd numerisk integration för att bestämma pi med några decimaler.
 # Uppgift 3: Ibland vill man ha en viss noggranhet, ex 2 eller 8 decimaler. 
-#            Uppdatera programet så kan bestämma arean med ett givet antal värdesiffror.
+#            Uppdatera programet så kan bestämma arean, eller pi, med ett givet antal värdesiffror.
