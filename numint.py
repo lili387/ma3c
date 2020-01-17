@@ -23,3 +23,4 @@ print(f'Arean är cirka {a}')
 #            Använd numerisk integration för att bestämma pi med några decimaler.
 # Uppgift 3: Ibland vill man ha en viss noggranhet, ex 2 eller 8 decimaler. 
 #            Uppdatera programet så kan bestämma arean, eller pi, med ett givet antal värdesiffror.
+#            Tips: Försök skriva ett program som gör smalare och smalare staplar tills dess att du är säker på antal värdesiffror som stämmer.
