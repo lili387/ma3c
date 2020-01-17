@@ -8,9 +8,11 @@ def f(x):
 # Beräkna arean mellan funktionen och x-axeln, mellan -2 och 2. 
 a = 0.0
 # Delar in intervallet i 4 bitar.
-for x1 in [-2, -1, 0, 1]:
+for x1 in [-2.0, -1.0, 0.0, 1.0]:
     x2 = x1 + 1
-    a = a + (x2-x1)*f(x1)
+    b = (x2-x1)
+    h = f((x1+x2)/2)
+    a = a + b*h
 
 print(f'Arean är cirka {a}')
 
